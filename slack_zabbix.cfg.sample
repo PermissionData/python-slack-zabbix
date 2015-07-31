@@ -1,0 +1,5 @@
+url: https://hooks.slack.com/some/fake/path
+emoji:
+  recovery: ':smiling:'
+  problem: ':frowning:'
+  default: ':zap:'

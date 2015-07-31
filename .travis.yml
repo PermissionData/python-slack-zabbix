@@ -1,0 +1,15 @@
+language: python
+env:
+  matrix:
+  - TOXENV=py34
+  - TOXENV=py33
+  - TOXENV=py32
+  - TOXENV=py27
+  - TOXENV=pep257
+  - TOXENV=flake8
+  - TOXENV=lint
+install:
+- pip install tox
+script:
+- cp ./slack_zabbix.cfg.sample slack_zabbix.cfg
+- tox

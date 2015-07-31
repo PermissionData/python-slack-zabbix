@@ -1,0 +1,5 @@
+image: python2.7
+script:
+  - cp ./slack_zabbix.cfg.sample slack_zabbix.cfg
+  - pip install tox
+  - tox

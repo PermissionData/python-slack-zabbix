@@ -1,0 +1,14 @@
+# Ignore PYC files
+*.pyc
+
+# Ignore Egg
+*.egg-info/
+
+# Ignore tox directory
+.tox/
+
+# Ignore coverage file
+.coverage
+
+# Ignore actual config file
+slack_zabbix.cfg
