@@ -21,4 +21,4 @@ Check if a ticket for your issue already exists in GitHub issues. If you don't f
 - All regressions need to pass before your pull can be accepted
 
 ## License
-By contributing to axosoft-python you agree that your contributions will be licensed under its MIT license.
+By contributing to slack-zabbix you agree that your contributions will be licensed under its MIT license.

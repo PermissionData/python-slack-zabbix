@@ -88,7 +88,7 @@ class SlackZabbix(object):
                     self.url,
                     data=payload,
                     timeout=5
-                    )
+                )
             except requests.exceptions.Timeout:
                 i += 1
                 continue
