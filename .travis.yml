@@ -3,7 +3,6 @@ env:
   matrix:
   - TOXENV=py34
   - TOXENV=py33
-  - TOXENV=py32
   - TOXENV=py27
   - TOXENV=pep257
   - TOXENV=flake8
